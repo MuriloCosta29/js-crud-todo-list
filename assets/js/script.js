@@ -2,6 +2,16 @@ const inputTarefa = document.querySelector('.input-tarefa');
 const btnTarefa = document.querySelector('.btn-tarefa');
 const tarefas = document.querySelector('.tarefas');
 
+inputTarefa.addEventListener('keypress', function(e) {
+    // 13 é o código da tecla Enter.
+    if (e.keyCode === 13) {
+        if (!inputTarefa.value) return;
+        criaTarefa(inputTarefa.value);
+    }
+});
+
+
+
 function criaLi() {
     const li = document.createElement('li');
     return li;
