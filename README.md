@@ -45,5 +45,9 @@ Reforcei o uso de Event Delegation, técnica que eu já havia aplicado anteriorm
 2. Abra o arquivo index.html no seu navegador.
 3. Comece a criar suas tarefas!
 
+## 📌 Nota sobre o Código Fonte
+Optei por manter os comentários explicativos nos arquivos JavaScript. Como este projeto tem fins educacionais, decidi deixá-los para documentar meu raciocínio e facilitar futuras revisões sobre a lógica aplicada.
+
 ---
+
 Desenvolvido para fins de estudo e consolidação de lógica de programação. Obrigado pela atenção 😄
